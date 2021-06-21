@@ -20,5 +20,6 @@ import apis.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/', apis.views.hello)
+    path('hello/', apis.views.hello),
+    path('gettopology/', apis.views.get_topology)
 ]
